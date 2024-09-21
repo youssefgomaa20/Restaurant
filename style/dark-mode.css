@@ -1,0 +1,75 @@
+
+:root:has(.toggle-mode:checked){
+    --light-color: #C17E1F;
+    --text-color: white;
+    --x-text-color: black;
+    --bg-color : #202020;
+    --bg-color-gray : #252525;
+    --font-color:#9f9f9f;
+    --p-color:#9f9f9f;
+    --card-bg:#171717;
+    --bg-color-details:#0d0d0d;
+    --b-hover : #d78c23 ;
+    --pop-up-bg : #303030;
+
+}
+
+
+
+
+body:has(div:target) .nav .main-list li .active {
+    opacity: 0.7;
+}
+
+body:has(div:target) .nav .active::after {
+    width: 0;
+}
+
+
+:root :has(.toggle-mode:checked)  .chefs .chef-card .chef-photo::after {
+    background-image: url(../images/team-shape-dark.svg);
+}
+
+
+
+.nav:has(.toggle-mode:checked){
+    background-color: #171717;
+}
+
+
+body:has(.home:target) .nav .main-list ul a[href="#home"]{
+  opacity: 1;
+}
+
+body:has(.home:target) .nav .main-list ul a[href="#home"]::after {
+    width: 100%;
+}
+
+
+body:has(.chefs:target) .nav .main-list ul a[href="#chefs"]{
+    opacity: 1;
+  }
+  
+  body:has(.chefs:target) .nav .main-list ul a[href="#chefs"]::after {
+      width: 100%;
+  }
+
+
+  
+body:has(.galery:target) .nav .main-list ul a[href="#gallery"]{
+    opacity: 1;
+  }
+  
+  body:has(.galery:target) .nav .main-list ul a[href="#gallery"]::after {
+      width: 100%;
+  }
+
+
+body:has(.contact:target) .nav .main-list ul a[href="#contact"]{
+    opacity: 1;
+  }
+  
+  body:has(.contact:target) .nav .main-list ul a[href="#contact"]::after {
+      width: 100%;
+  }
+

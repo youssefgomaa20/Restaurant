@@ -1,0 +1,185 @@
+  /* Extra small devices (phones, 600px and down)   
+@media only screen and (max-width: 600px) {...}
+
+  Small devices (portrait tablets and large phones, 600px and up)   
+@media only screen and (min-width: 600px) {...}
+
+  Medium devices (landscape tablets, 768px and up)   
+@media only screen and (min-width: 768px) {...}
+
+  Large devices (laptops/desktops, 992px and up)   
+@media only screen and (min-width: 992px) {...}
+
+  Extra large devices (large laptops and desktops, 1200px and up)   
+@media only screen and (min-width: 1200px) {...} */
+
+@media only screen and (max-width: 1200px) {
+  
+
+
+.nav .main-list ul {
+    display: none !important;
+}
+
+.nav .burger{
+    display: block;
+}
+
+.container {
+  max-width: 960px;
+
+}
+
+.home{
+  padding-bottom: 3%;
+}
+
+.home .container .text .icon{
+  font-size: 15px;
+}
+
+
+.galery .meals {
+  height:55rem ;
+}
+
+
+footer .social,
+footer .touch
+{
+  width: calc((100% - 80px )/2);
+}
+
+footer .subscribe{
+  order: 1;
+  width: 100%;
+  margin: 20px 0;
+}
+
+footer .social .icons i {
+  margin: var(--space)40px ;
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 992px) { 
+  
+.container {
+     max-width: 750px;      
+}  
+
+.home .container {
+    flex-direction: column-reverse;
+    text-align: center;
+}
+.home .photo{
+    width: 100%;
+}
+.home .text {
+    width: 70%;
+}
+
+.chefs .chef-card{
+  width: 48%;
+  margin-bottom: 50px;
+}
+
+.galery .meals {
+  height: 90rem;
+}
+
+
+.galery .meals .meal  {
+  width: 45%;
+}
+
+.pizza{
+  order: 1;
+}
+.burger-img{
+  order: 2;
+}
+.pizza-slize{
+  order: 3;
+}
+.ommelette{
+  order: 4;
+}
+.stick{
+  order: 5;
+}
+.chicken{
+  order: 6;
+}
+.koftta{
+  order: 7;
+}
+
+.contact form input{
+  width: 100%;
+}
+
+footer .social .icons i {
+  margin: var(--space)25px ;
+}
+footer .social,
+footer .touch,
+footer .subscribe{
+  width: 100%;
+  margin-bottom: 20px;
+}
+footer .touch{
+  order: 2;
+}
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 550px;      
+   }  
+   .home .text {
+    width: 80%;
+  }
+
+.chefs .chef-card{
+  width: 100%;
+  }
+
+  .galery .meals {
+    height: fit-content;
+  }
+
+  .galery .meals .meal  {
+    width: 100%;
+  }
+
+  .details ul li {
+    width: 100%;
+  }
+   
+} 
+
+@media only screen and (max-width: 600px) {
+    
+
+   .home .text{
+    margin-bottom: 50px;
+   }
+
+   .home .text {
+    width: 90%;
+  }
+  
+  footer .subscribe form input {
+    width: 65%;
+  }
+
+
+}
+
